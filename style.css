@@ -1,0 +1,104 @@
+.nav-link {
+  color: black;
+}
+#top {
+  background-image: linear-gradient(rgb(250, 215, 221), aliceblue);
+}
+#bottom {
+  background-image: linear-gradient(aliceblue, rgb(250, 215, 221));
+}
+li {
+  font-weight: 400;
+  font-size: large;
+  margin-right: 3rem;
+}
+#nav-btn {
+  font-size: large;
+  font-weight: 500;
+}
+#mng {
+  background-color: aliceblue;
+  color: blueviolet;
+  font-weight: 500;
+  font-size: small;
+  border: 1px solid rgb(154, 154, 154);
+}
+#emp {
+  font-size: 5rem;
+  font-weight: 600;
+}
+#gs {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: larger;
+}
+#wv {
+  font-size: larger;
+  font-weight: 600;
+}
+#ds {
+  font-size: 4rem;
+  font-weight: 600;
+}
+#and {
+  background-color: aliceblue;
+  color: blueviolet;
+  font-weight: 500;
+}
+#pb {
+  color: rgb(252, 135, 92);
+  background-color: aliceblue;
+}
+li {
+  list-style: none;
+}
+#gscard {
+  background-color: blueviolet;
+  color: aliceblue;
+  width: 10rem;
+  margin-left: 12%;
+}
+#gsbtn {
+  background-color: aliceblue;
+  color: black;
+  width: 10rem;
+  margin-left: 12%;
+}
+#gs1 {
+  background-color: blueviolet;
+  color: rgb(251, 251, 251);
+  width: 10rem;
+  margin-left: 12%;
+  font-weight: 600;
+  font-size: larger;
+}
+#footer {
+  list-style: none;
+  font-weight: 600;
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  animation: slide 10s linear infinite;
+}
+
+.slide {
+  flex: 0 0 auto;
+  padding: 0.6rem;
+  /* width: 100%; */
+  /* flex-shrink: 0; */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
